@@ -5,7 +5,7 @@
 
 get_sinecosine_func FUNCTION
 	
-	VLDR.F32 S0, =2				    ; input
+	;VLDR.F32 S0, =2				    ; input
 	VLDR.F32 S1, =1					; current loop counter
 	VLDR.F32 S2, =23				; maximum loop counter value
 	VMOV.F32 S3, S0					; we start with 'x' and  multiply this by 'x' at every loop 
